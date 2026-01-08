@@ -101,8 +101,7 @@ class WeatherChart:
                 
 def main():
     directory = sys.argv[1]
-    option = 
-    sys.argv[2]
+    option = sys.argv[2]
     value = sys.argv[3]
     
     parser = WeatherFileParser(directory)
